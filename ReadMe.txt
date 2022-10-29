@@ -1,0 +1,16 @@
+I have added comments to the transaction.php file and you can use it for both the expense and income files
+as they are exactly the same concept and class names.
+
+- The transaction.php is where the user sees all his transactions, both income and expense 
+and can add transactions and can also search for transactions
+- The expense.php is where the user can see ONLY expenses and the income.php is where the user can see ONLY incomes.
+both of them also have search field where the user can search for incomes in income.php and for expenses
+in expense.php.
+-  The index.php is just the home page/landing page
+- The addTransaction.php is where the use will be directed to when he wants to add a new transaction and clicks the plus button at the bottom right of the transaction.php page.
+- The signUp.php is the registration or signUp page and the php validation has already been done
+- The signIn.php is to signIn
+- The expend.css is for the signIn and signUp pages ONLY while the style.css is for every other page.
+The links probably aren't working because you haven't installed the swup library, so go to the head of each php file and remove the link to swup.min.js, then the links should work
+Just remove the links to swup.min.js in the head of each of the php files that have the links.
+In the expend.js file, also remove the first line that says 'const swup = new Swup()'
